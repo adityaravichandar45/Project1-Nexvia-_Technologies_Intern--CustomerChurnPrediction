@@ -10,13 +10,13 @@ st.title("Customer Churn, Segmentation & ROI Simulator Dashboard")
 # 2. Load all saved model and data artifacts using joblib
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load("churn_lgbm_model.pkl")
+    lgbm_model = joblib.load("churn_lgbm_model.pkl")
     scaler = joblib.load("scaler.pkl")
     kmeans = joblib.load("kmeans_model.pkl")
     df = pd.read_pickle("processed_churn_data.pkl")
-    return model, scaler, kmeans, df
+    return lgbm_model, scaler, kmeans, df
 
-model, scaler, kmeans, df = load_artifacts()
+lgbm_model, scaler, kmeans, df = load_artifacts()
 
 # 3. Sidebar Controls for ROI & Discount Simulator
 st.sidebar.header(" Campaign ROI Simulator")
