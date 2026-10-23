@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import lightgbm as lgb
 
 # 1. Page Configuration
 st.set_page_config(page_title="Customer Churn & ROI Dashboard", layout="wide")
