@@ -5,7 +5,7 @@ import joblib
 # 1. Page Configuration
 st.set_page_config(page_title="Customer Churn & ROI Dashboard", layout="wide")
 
-st.title("📊 Customer Churn, Segmentation & ROI Simulator Dashboard")
+st.title("Customer Churn, Segmentation & ROI Simulator Dashboard")
 
 # 2. Load all saved model and data artifacts using joblib
 @st.cache_resource
