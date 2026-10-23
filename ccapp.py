@@ -15,7 +15,7 @@ def load_artifacts():
     df = pd.read_pickle("processed_churn_data.pkl")
     return scaler, kmeans, df
 
- scaler, kmeans, df = load_artifacts()
+    scaler, kmeans, df = load_artifacts()
 
 # 3. Sidebar Controls for ROI & Discount Simulator
 st.sidebar.header(" Campaign ROI Simulator")
