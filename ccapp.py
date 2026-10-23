@@ -12,10 +12,9 @@ st.title("Customer Churn, Segmentation & ROI Simulator Dashboard")
 def load_artifacts():
     scaler = joblib.load("scaler.pkl")
     kmeans = joblib.load("kmeans_model.pkl")
-    df = pd.read_pickle("processed_churn_data.pkl")
-    return scaler, kmeans, df
+    return scaler, kmeans
 
-    scaler, kmeans, df = load_artifacts()
+    scaler, kmeans = load_artifacts()
 
 # 3. Sidebar Controls for ROI & Discount Simulator
 st.sidebar.header(" Campaign ROI Simulator")
