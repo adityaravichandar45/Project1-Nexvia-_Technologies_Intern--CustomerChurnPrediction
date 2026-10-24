@@ -10,7 +10,7 @@ st.title(" Customer Churn, Segmentation & ROI Simulator Dashboard")
 # 2. Load all saved model and data artifacts using joblib
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load("churn_lgb_model.pkl")
+    model = joblib.load("churn_lgbm_model.pkl")
     scaler = joblib.load("scaler.pkl")
     kmeans = joblib.load("kmeans_model.pkl")
     df = pd.read_pickle("processed_churn_data.pkl")
