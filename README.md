@@ -28,6 +28,3 @@ Customer churn is a critical challenge for subscription-based businesses. This p
 
 ---
 
-├── processed_churn_data.pkl    # Cleaned dataset with computed CLV and segments
-├── churn_pipeline.ipynb        # Complete Google Colab notebook containing all training steps
-└── README.md                   # Project documentation
