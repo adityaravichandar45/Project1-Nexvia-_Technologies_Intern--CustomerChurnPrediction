@@ -1,1 +1,1 @@
-# Project1-Nexvia-_Technologies_Intern--CustomerChurnPrediction
+# Project1-Nexvia_Technologies_Intern--CustomerChurnPrediction
