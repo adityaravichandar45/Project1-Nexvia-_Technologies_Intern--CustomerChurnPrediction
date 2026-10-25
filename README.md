@@ -14,8 +14,8 @@ Customer churn is a critical challenge for subscription-based businesses. This p
 3. **Churn Classification & Explainability:** Trained a **LightGBM** classifier and interprets global/local feature importance using **SHAP**.
 4. **Survival Analysis:** Applied **Kaplan-Meier** estimators and **Cox Proportional Hazards** regression to estimate customer lifetime duration.
 5. **Uplift Modeling:** Used **CausalML** to isolate persuadables (customers who respond positively to retention offers) from sure-things and lost causes.
-6. **Customer Lifetime Value (CLV) & Clustering:** Segments customers using **K-Means** clustering based on monetary value and behavioral metrics.
-7. **Interactive Streamlit ROI Simulator:** Features a deployed dashboard where stakeholders can adjust discount sliders to compute campaign costs versus saved revenue in real-time.
+6. **Customer Lifetime Value (CLV) & Clustering:** For segmenting customers by using **K-Means** clustering based on monetary value and behavioral metrics.
+7. **Interactive Streamlit ROI Simulator:** Featured a deployed dashboard where stakeholders can adjust discount sliders to compute campaign costs versus saved revenue in real-time.
 
 ---
 
