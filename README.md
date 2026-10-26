@@ -26,7 +26,8 @@ Customer churn is a critical challenge for subscription-based businesses. This p
 * **Model Serialization:** Joblib
 * **Web Application & Deployment:** Streamlit
 
- Deployed  streamlit app :- https://ccpr-mk.streamlit.app
+ Deployed  streamlit app :- https://ccpr-fq.streamlit.app/
+ 
 
 ---
 
